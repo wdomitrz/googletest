@@ -54,7 +54,7 @@ may (just may) break with a new compiler (or a new version of the compiler you
 are using) or with a new version of googletest. Therefore it's best to follow
 the rule.
 
-## Why does googletest support `EXPECT_EQ(NULL, ptr)` and `ASSERT_EQ(NULL, ptr)` but not `EXPECT_NE(NULL, ptr)` and `ASSERT_NE(NULL, ptr)`?
+## Why does googletest support `EXPECT_EQ(nullptr, ptr)` and `ASSERT_EQ(nullptr, ptr)` but not `EXPECT_NE(NULL, ptr)` and `ASSERT_NE(NULL, ptr)`?
 
 First of all you can use `EXPECT_NE(nullptr, ptr)` and `ASSERT_NE(nullptr,
 ptr)`. This is the preferred syntax in the style guide because nullptr does not
